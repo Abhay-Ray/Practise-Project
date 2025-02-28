@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 80px 100px;
+    background-color: #548687;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+#container {
+    text-align: center;
+    background-color: #1abc9c;
+    padding: 50px;
+
+}
+
+.input-div {
+    display: inline-block;
+}
+
+.inp {
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+label {
+    font-size: 22px;
+}
