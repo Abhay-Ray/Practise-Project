@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ccc;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: Arial,  sans-serif;
+    
+}
+
+#container{
+    border: 2px solid black;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px ;
+   
+}
+
+h1{
+    font-size: 3em;
+}
+#month{
+    font-size: 1.2rem;
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 12px;
+    
+}
+
+#date{
+    font-size: 70px;
+    font-weight: bold;
+}
+.pad{
+    padding: 10px;
+}
