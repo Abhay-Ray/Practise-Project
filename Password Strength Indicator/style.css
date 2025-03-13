@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+#password{
+    width: 350px;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+#output{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+#password:focus{
+    outline: none;
+}
