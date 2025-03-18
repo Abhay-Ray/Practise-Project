@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #cccccc;
+}
+#container{
+    cursor: pointer;
+}
+
+span{
+    font-size: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: blue;
+    display: inline-block;
+}
+
+span.active{
+    animation:  jump 2s ease-in-out;
+
+}
+
+@keyframes jump {
+    0% {
+        transform: translate(0,0) rotate(180deg);
+    }
+    100%{
+        transform: scale(2.5) translate(0,-180px);
+    }
+}
