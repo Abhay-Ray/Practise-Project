@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button{
+    height: 80px;
+    width: 100px;
+    color: white;
+    background-color: red;
+    font-size: 2rem;
+    border: none;
+}
+
+.color{
+    background-color: green;
+}
