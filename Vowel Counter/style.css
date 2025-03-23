@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsla(197, 71%, 73%, 0.574);
+}
+
+#container{
+    height: 320px;
+    width: 350px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px ;
+    border: none;
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+#textarea{
+    width: 80%;
+    padding: 5px;
+    height: 200px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#count{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.output{
+    font-size: 20px;
+}
